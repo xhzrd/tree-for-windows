@@ -8,7 +8,7 @@ TARGET = build/tree.exe
 CXXFLAGS = -std=c++20 -Os -flto -ffunction-sections -fdata-sections -Wl,--gc-sections -s
 
 preparedir: 
-	@mkdir -r build/
+	@mkdir -p build/
 
 all: preparedir $(TARGET)
 
