@@ -34,6 +34,11 @@ A fast, colorful, feature-rich Windows command-line `tree` utility written in C+
 make
 ```
 
+This makes a build directory, Then you need to do:
+```bash
+make ./build/tree.exe
+```
+
 This compiles `src/main.cpp` into `build/tree.exe` with C++20 optimizations.
 
 ## Usage
