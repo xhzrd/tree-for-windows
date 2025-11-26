@@ -36,7 +36,14 @@ make
 
 This makes a build directory, Then you need to do:
 ```bash
-make ./build/tree.exe
+# Balanced for speed & size
+make
+
+# Optimized for Tiny size
+make tiny
+
+# Optimized for Tiny size
+make fast
 ```
 
 This compiles `src/main.cpp` into `build/tree.exe` with C++20 optimizations.
