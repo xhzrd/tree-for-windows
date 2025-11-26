@@ -42,7 +42,7 @@ make
 # Optimized for Tiny size
 make tiny
 
-# Optimized for Tiny size
+# Optimized for max speed
 make fast
 ```
 
